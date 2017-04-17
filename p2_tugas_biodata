@@ -1,0 +1,46 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main ()
+{
+    string nama;
+    string goldar;
+    char bulan[100];
+    char tempat [100];
+    int tgl;
+    int tahun;
+    int umur;
+    int usia;
+
+    cout << "Masukkan Biodata Anda "<<'\n';
+
+    cout << "Nama                 : ";
+    cin >> nama;
+
+     cout << "Golongan darah      : ";
+    cin >> goldar;
+
+    cout << "Tempat Tanggal Lahir "<<endl<<endl;
+
+    cout<<"Tempat                 :";
+    cin>> tempat;
+
+    cout << "Tanggal              : ";
+    cin >> tgl;
+
+    cout << "Bulan                : ";
+    cin >> bulan;
+
+    cout << "Tahun                : ";
+    cin >> tahun;
+    system("cls");
+
+    usia= 2017-tahun;
+
+    cout << "Nama Kamu                   : "<<nama<<endl;
+    cout << "Golongan darah Kamu         : "<<goldar<<endl;
+    cout << "Tempat Tanggal Lahir Kamu   : "<<tempat <<",  "<<tgl <<"- "<<bulan<< "- "<<tahun<<endl;
+    cout << "Umur Kamu                   : "<<usia<<endl;
+
+    return 0;
+}
